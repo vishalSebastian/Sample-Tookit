@@ -1,0 +1,33 @@
+{
+  "name": "@vishalSebastian/toolkit-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@vishalSebastian"
+  },
+  "version": "0.0.2",
+  "description": "A simple template for a custom React component library",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Vishal sebastian",
+  "license": "ISC",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.64",
+    "react": "^18.2.0",
+    "rollup": "^4.12.1",
+    "rollup-plugin-dts": "^6.1.0",
+    "typescript": "^5.4.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "dependencies": {
+    "tslib": "^2.6.2"
+  }
+}
